@@ -3,7 +3,7 @@ module github.com/dustymabe/client-go
 go 1.17
 
 require (
-	github.com/coreos/prometheus-operator v0.38.3
+	github.com/coreos/prometheus-operator v0.29.0
 	github.com/go-kit/kit v0.10.0
 	github.com/golang/glog v1.0.0
 	github.com/golang/mock v1.6.0
@@ -18,7 +18,7 @@ require (
 	k8s.io/api v0.27.1
 	k8s.io/apiextensions-apiserver v0.26.3
 	k8s.io/apimachinery v0.27.1
-	k8s.io/client-go v12.0.0+incompatible
+	k8s.io/client-go v0.27.3
 	k8s.io/kube-openapi v0.0.0-20230501164219-8b0f38b5fd1f
 	k8s.io/utils v0.0.0-20230505201702-9f6742963106
 	kubevirt.io/api v0.0.0-20230714130450-229230e7aa93
